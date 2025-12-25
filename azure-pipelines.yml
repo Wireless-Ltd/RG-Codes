@@ -35,10 +35,5 @@ steps:
     environmentServiceNameAzureRM: 'ServiceConnUT'
     environmentAzureRmOverrideSubscriptionID: '8b0422c9-d3b4-4ad5-b676-1cd162a61f87'
 
-- task: TerraformTask@5
-  inputs:
-    provider: 'azurerm'
-    command: 'apply'
-    environmentServiceNameAzureRM: 'ServiceConnUT'
-    environmentAzureRmOverrideSubscriptionID: '8b0422c9-d3b4-4ad5-b676-1cd162a61f87'
+
 
